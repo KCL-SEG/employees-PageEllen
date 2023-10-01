@@ -19,7 +19,7 @@ class Employee:
 
     def get_pay(self):
 
-        return self.contract.get_salary()
+        return self.pay
 
 
 
