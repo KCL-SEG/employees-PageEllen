@@ -129,7 +129,7 @@ class BonusCom(Commission):
 
     def get_str(self):
 
-        return " and recieves a bonus commission of " + str(self.bonus) +". "
+        return " and receives a bonus commission of " + str(self.bonus) +". "
 
     
 
@@ -151,7 +151,7 @@ class ContractCom(Commission):
 
     def get_str(self):
 
-        return " and recieves a commission for " + str(self.contracts) +" contract(s) at " + str(self.commission) +"/contract. "
+        return " and receives a commission for " + str(self.contracts) +" contract(s) at " + str(self.commission) +"/contract. "
 
     
 
